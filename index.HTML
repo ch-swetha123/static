@@ -1,45 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cloud Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
-<header>
-    <h1>☁️ My Cloud Website</h1>
-    <p>High Availability Static Website Project</p>
-</header>
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+}
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-</nav>
+nav {
+    background: #333;
+    padding: 10px;
+}
 
-<section class="hero">
-    <h2>Welcome to My Website 🚀</h2>
-    <button onclick="showMessage()">Click Me</button>
-</section>
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
 
-<section id="about">
-    <h2>About Project</h2>
-    <p>This project demonstrates static website hosting using cloud services.</p>
-</section>
+.hero {
+    padding: 50px;
+    background: #f4f4f4;
+}
 
-<section id="contact">
-    <h2>Contact</h2>
-    <input type="text" id="name" placeholder="Enter your name">
-    <button onclick="greetUser()">Submit</button>
-    <p id="output"></p>
-</section>
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
-<footer>
-    <p>© 2026 My Cloud Project</p>
-</footer>
+button:hover {
+    background: #45a049;
+}
 
-<script src="script.js"></script>
-</body>
-</html>
+section {
+    padding: 40px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
